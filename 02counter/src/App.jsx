@@ -12,9 +12,9 @@ const [count, setCount] = useState(0);
   };
 
   const removeValue = () => {
-    setCount(count-1)
+    setCount((prevCounter)=> prevCounter-2)
   };
-  
+
   return (
     <>
       <h1>React course {count}</h1>
