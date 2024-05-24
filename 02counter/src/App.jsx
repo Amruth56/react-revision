@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import "./App.css";
 import Hello from './components/reactJSX';
+import Greet from './components/02Greet'
 
 function App() {
 
@@ -25,6 +26,7 @@ const [count, setCount] = useState(0);
       <p>footer: {count}</p>
 
       <Hello></Hello>
+      <Greet name ="qwerty"></Greet>
     </>
   );
 }
