@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import "./App.css";
+import Hello from './components/reactJSX';
 
 function App() {
 
@@ -22,6 +23,8 @@ const [count, setCount] = useState(0);
       <button onClick={addValue}> add value</button>{" "}
       <button onClick={removeValue}> remove value</button>
       <p>footer: {count}</p>
+
+      <Hello></Hello>
     </>
   );
 }
