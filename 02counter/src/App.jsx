@@ -4,6 +4,7 @@ import Hello from './components/reactJSX';
 import Greet from './components/02Greet'
 import Message from './components/03Message';
 import Counter from './components/04counter';
+import Greet02 from './components/05destructuring';
 
 function App() {
 
@@ -31,6 +32,7 @@ const [count, setCount] = useState(0);
       {/* <Greet name ="qwerty "></Greet> */}
       {/* <Message></Message> */}
       <Counter/>
+      <Greet02 name ="Amruth" roll = "21"></Greet02>
     </>
   );
 }
