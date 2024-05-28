@@ -5,6 +5,7 @@ import Greet from './components/02Greet'
 import Message from './components/03Message';
 import Counter from './components/04counter';
 import Greet02 from './components/05destructuring';
+import ConditionalRendering from './components/06ConditionalRendering';
 
 function App() {
 
@@ -31,8 +32,9 @@ const [count, setCount] = useState(0);
       {/* <Hello></Hello> */}
       {/* <Greet name ="qwerty "></Greet> */}
       {/* <Message></Message> */}
-      <Counter/>
-      <Greet02 name ="Amruth" roll = "21"></Greet02>
+      {/* <Counter/> */}
+      {/* <Greet02 name ="Amruth" roll = "21"></Greet02> */}
+      <ConditionalRendering></ConditionalRendering>
     </>
   );
 }
