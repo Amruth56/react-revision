@@ -1,15 +1,9 @@
 import { useState } from "react";
 import "./index.css";
 import "./App.css";
-import A ppLayout from "./01appLayout";
+import AppLayout from "./01appLayout";
 
-const title = (
-  <a className="anchor " href="/">
-    <h1 id="title" key="h1">
-      Food Villa
-    </h1>
-  </a>
-);
+
 const Title2 = () => {
   return (
     <h2 id="title2" key="h2">
@@ -21,18 +15,7 @@ const Title2 = () => {
 function App() {
   return (
     <>
-      <div className="header">
-        {title}
-        <div className="nav-items">
-          <ul className="navbar-items">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Cart </li>
-          </ul>
-        </div>
-        
-      </div>
+  
       <AppLayout></AppLayout>
     </>
   );
