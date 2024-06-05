@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "./index.css";
 import "./App.css";
-import AppLayout from "./01appLayout";
-
+import Header from "./02Header";
+import Body from "./03Body";
+import Footer from "./04Footer";
 
 const Title2 = () => {
   return (
@@ -15,8 +16,10 @@ const Title2 = () => {
 function App() {
   return (
     <>
-  
-      <AppLayout></AppLayout>
+      <Header></Header>
+      <Body></Body>
+      
+      <Footer />   
     </>
   );
 }
