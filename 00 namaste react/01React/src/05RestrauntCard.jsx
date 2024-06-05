@@ -8,7 +8,7 @@ const styles = {
     padding: "5px",
     margin: "5px",
     display: "flex",
-  }, 
+  },    
   card: {
     width: "100%",
   },
