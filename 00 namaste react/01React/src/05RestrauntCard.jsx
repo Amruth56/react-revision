@@ -34,6 +34,7 @@ const RestrauntCard = () => {
         <p>{burgerKing.orders} orders 780 ratings</p>
       </div>
     </div>
+    // 
   );
 };
 
