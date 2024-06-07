@@ -24,4 +24,4 @@ console.log(` Triple output = ${tripleOutput}`);
 
 //square
 const square = arr.map( (x) => x*x);
-console.log(` Square output = ${square}`); 
+console.log(` Square output = ${square}`);  
