@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./02Header";
 import Body from "./03Body";
 import Footer from "./04Footer";
+import ClassCounter from "./components/classCounter";
 
 const Title2 = () => {
   return (
@@ -18,7 +19,7 @@ function App() {
     <>
       <Header></Header>
       <Body></Body>
-      
+      <ClassCounter></ClassCounter>
       <Footer />   
     </>
   );
