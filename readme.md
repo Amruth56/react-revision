@@ -10,3 +10,4 @@ To run
   rce - for class components 
   rcont - constructor 
   rfce - functional component
+  rafce - arrow function 
