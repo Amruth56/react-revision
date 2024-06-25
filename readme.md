@@ -9,3 +9,4 @@ cd folder name<br/>
   rce - for class components <br/>
   rcont - constructor <br/>
   rfce - functional component<br/>
+  rafce - arrow functional component<br/>
