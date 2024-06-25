@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const useStateObject = () => {
+function useStateObject () {
   const [name, setName] = useState({ firstName: "", lastName: "" });
 
   return (
