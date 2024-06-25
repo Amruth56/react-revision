@@ -9,3 +9,4 @@ To run
   shortcuts 
   rce - for class components 
   rcont - constructor 
+  rfce - functional component
