@@ -1,13 +1,11 @@
-To run
-
-  cd folder name
-  npm install
-  npm run dev
-
+# **To run** <br/>
+cd folder name<br/>
+  npm install<br/>
+  npm run dev<br/>
 
 
-  shortcuts 
-  rce - for class components 
-  rcont - constructor 
-  rfce - functional component
-  rafce - arrow function 
+
+ # __shortcuts__ <br/>
+  rce - for class components <br/>
+  rcont - constructor <br/>
+  rfce - functional component<br/>
