@@ -4,6 +4,7 @@ import UseState from './components/02UseState'
 import useStateObject from './components/03useStateObject'
 import UseStatePrevState from './components/04useStatePrevState'
 import UseStateArray from './components/05UseStateArray'
+import UseEffect from './components/06useEffect'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,8 @@ function App() {
     {/* <UseState></UseState> */}
     {/* <useStateObject></useStateObject> */}
     {/* <UseStatePrevState></UseStatePrevState> */}
-    <UseStateArray></UseStateArray>
+    {/* <UseStateArray></UseStateArray> */}
+    <UseEffect></UseEffect>
     </>
   )
 }
