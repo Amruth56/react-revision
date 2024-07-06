@@ -1,13 +1,15 @@
-import { useState } from 'react'
+import { useReducer, useState } from 'react'
 import ClassComponent from './components/01ClassComponent'
 import UseState from './components/02UseState'
 import useStateObject from './components/03useStateObject'
 import UseStatePrevState from './components/04useStatePrevState'
 import UseStateArray from './components/05UseStateArray'
 import UseEffect from './components/06useEffect'
+import UseReducer from './components/07useReducer'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
+
 
   return (
     <>
@@ -16,7 +18,10 @@ function App() {
     {/* <useStateObject></useStateObject> */}
     {/* <UseStatePrevState></UseStatePrevState> */}
     {/* <UseStateArray></UseStateArray> */}
-    <UseEffect></UseEffect>
+    {/* <UseEffect></UseEffect> */}
+    <UseReducer></UseReducer>
+
+    
     </>
   )
 }
