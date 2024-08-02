@@ -31,7 +31,7 @@ const UseReducer2 = () => {
         onChange={(e) =>
           dispatch({ type: "input", payload: Number(e.target.value) })
         }
-        type="number"
+        type="number "
         placeholder="enter the number"
       ></input>
     </div>
